@@ -1,22 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# M397749490 - Personal Radio Portfolio
+
+A retro-styled personal homepage for M397749490 (BI3BFG), featuring a pager aesthetic and interactive radio tools.
+
+## Features
+
+- **Pager Interface**: Pixel-art inspired design with CRT effects.
+- **Interactive Morse Transmitter**: 
+  - Type text to hear and see Morse code.
+  - Adjustable WPM and Frequency.
+  - Visual TX indicator.
+- **Spectrum Monitor**: Simulated waterfall display.
+- **Radio Profile**: Station information and grid squares.
+
+## Tech Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Animations**: Framer Motion
+- **Font**: VT323 (Google Fonts)
 
 ## Getting Started
 
-First, run the development server:
+1. Install dependencies:
+   ```bash
+   pnpm install
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. Run the development server:
+   ```bash
+   pnpm dev
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Open [http://localhost:3000](http://localhost:3000) with your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
