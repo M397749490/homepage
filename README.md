@@ -5,11 +5,6 @@ A retro-styled personal homepage for M397749490 (BI3BFG), featuring a pager aest
 ## Features
 
 - **Pager Interface**: Pixel-art inspired design with CRT effects.
-- **Interactive Morse Transmitter**: 
-  - Type text to hear and see Morse code.
-  - Adjustable WPM and Frequency.
-  - Visual TX indicator.
-- **Spectrum Monitor**: Simulated waterfall display.
 - **Radio Profile**: Station information and grid squares.
 
 ## Tech Stack
