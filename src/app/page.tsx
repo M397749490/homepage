@@ -26,11 +26,6 @@ export default function Home() {
 
       <main className="space-y-8">
         <RadioProfile />
-        
-        <div className="grid grid-cols-1 gap-8">
-            <MorseTransmitter />
-            <Spectrum />
-        </div>
 
         <ContactInfo />
 
@@ -48,13 +43,9 @@ export default function Home() {
       <footer className="mt-12 text-center text-green-800 text-xs border-t border-green-900 pt-4 space-y-2">
         <p>DESIGNED BY Snowball_233 // SYSTEM READY // {new Date().getFullYear()}</p>
         <div className="flex flex-col md:flex-row items-center justify-center gap-4">
-            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12010302000000" target="_blank" className="flex items-center gap-1 hover:text-green-600">
-                <Image src="/mps.png" alt="MPS" width={16} height={16} />
-                <span>津公网安备 12010302000000号</span>
-            </a>
             <a href="https://beian.miit.gov.cn/" target="_blank" className="flex items-center gap-1 hover:text-green-600">
-                <Image src="/miit.png" alt="MIIT" width={16} height={16} />
-                <span>津ICP备2025036652号-1</span>
+              <Image src="/miit.png" alt="MIIT" width={16} height={16} />
+              <span>津ICP备2025036652号-1</span>
             </a>
         </div>
       </footer>
