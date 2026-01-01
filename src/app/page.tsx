@@ -41,7 +41,7 @@ export default function Home() {
       </main>
       
       <footer className="mt-12 text-center text-green-800 text-xs border-t border-green-900 pt-4 space-y-2">
-        <p>DESIGNED BY Snowball_233 // SYSTEM READY // {new Date().getFullYear()}</p>
+        <p>Designed By Snowball_233 // Copyright © {new Date().getFullYear()} M397749490.com All Right Reserved.</p>
         <div className="flex flex-col md:flex-row items-center justify-center gap-4">
             <a href="https://beian.miit.gov.cn/" target="_blank" className="flex items-center gap-1 hover:text-green-600">
               <Image src="/miit.png" alt="MIIT" width={16} height={16} />
