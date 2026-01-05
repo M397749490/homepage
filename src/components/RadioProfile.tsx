@@ -7,7 +7,7 @@ export function RadioProfile() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
           <span className="text-green-600 block text-sm">CALLSIGN</span> 
-          <span className="text-3xl font-bold text-green-300 tracking-widest">BI3BFG</span>
+          <a href="https://www.qrz.com/db/BI3BFG" className="text-3xl font-bold text-green-300 tracking-widest">BI3BFG</a>
         </div>
         <div>
           <span className="text-green-600 block text-sm">MODE</span>
@@ -23,10 +23,10 @@ export function RadioProfile() {
             <span className="text-xl">PN35ir</span>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 gap-2">
           <div>
             <span className="text-green-600 block text-sm">RIG</span>
-            <span className="text-xl">UV-K6</span>
+            <span className="text-xl">QUANSHENG UV-K6</span>
           </div>
         </div>
       </div>
