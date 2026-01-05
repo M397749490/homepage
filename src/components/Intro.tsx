@@ -5,8 +5,11 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const ROLES = [
   "🎮 Minecraft 爱好者",
+  "💻 GitHub 开发者",
   "📡 业余无线电爱好者",
   "🚄 SimRail 爱好者",
+  "📕 全日制在读本科生",
+  "🤗 苦力怕论坛超级版主"
 ];
 
 export function Intro() {

@@ -18,7 +18,7 @@ export function Pager({ children }: { children: React.ReactNode }) {
                 <div className="w-3 h-3 rounded-full bg-zinc-700"></div>
             </div>
             <div className="text-zinc-500 font-mono text-xs tracking-widest">PERSONAL COMMUNICATOR</div>
-            <div className="text-green-900 font-mono text-xs bg-green-500/20 px-2 py-0.5 rounded">BAT 100%</div>
+            <div className="text-green-900 font-mono text-xs bg-green-500/20 px-2 py-0.5 rounded">Online</div>
         </div>
         
         {/* Screen Content */}

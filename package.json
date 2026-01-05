@@ -1,6 +1,10 @@
 {
-  "name": "m397749490",
-  "version": "0.1.0",
+  "name": "homepage",
+  "author": "M397749490 <M397749490@outlook.com> (https://M397749490.com/)",
+  "contributors": [
+    "Snowball_233 <i@qwq.my> (https://blog.qwq.my/)"
+    ],
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,9 +13,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@ant-design/icons": "^6",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.26",
-    "lucide-react": "^0.562.0",
     "next": "16.1.1",
     "react": "19.2.3",
     "react-dom": "19.2.3",
@@ -19,7 +23,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
+    "@types/node": "^25.0.3",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",

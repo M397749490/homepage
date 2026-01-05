@@ -3,8 +3,7 @@ import { Pager } from "@/components/Pager";
 import { Intro } from "@/components/Intro";
 import { ContactInfo } from "@/components/ContactInfo";
 import { RadioProfile } from "@/components/RadioProfile";
-import { MorseTransmitter } from "@/components/MorseTransmitter";
-import { Spectrum } from "@/components/Spectrum";
+import { FriendsList } from "@/components/FriendsList";
 
 export default function Home() {
   return (
@@ -15,6 +14,7 @@ export default function Home() {
                 src="/avatar.png" 
                 alt="Avatar" 
                 fill
+                sizes="96px"
                 className="object-cover"
             />
         </div>
@@ -29,24 +29,19 @@ export default function Home() {
 
         <ContactInfo />
 
-        <div className="border-2 border-green-800 p-4 bg-green-950/20">
-            <h3 className="text-xl border-b border-green-800 mb-3 pb-1 text-green-400">FRIEND LINKS</h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
-                <a href="https://blog.qwq.my" target="_blank" className="hover:text-green-300 hover:underline">雪球 (blog.qwq.my)</a>
-                <a href="https://damesck.net" target="_blank" className="hover:text-green-300 hover:underline">damesck (damesck.net)</a>
-                <a href="https://klpbbs.com" target="_blank" className="hover:text-green-300 hover:underline">苦力怕论坛 (klpbbs.com)</a>
-                <a href="https://github.com/TeamVastsea" target="_blank" className="hover:text-green-300 hover:underline">瀚海工艺 (TeamVastsea)</a>
-            </div>
-        </div>
+        <FriendsList />
       </main>
       
       <footer className="mt-12 text-center text-green-800 text-xs border-t border-green-900 pt-4 space-y-2">
         <p>Designed By Snowball_233 // Copyright © {new Date().getFullYear()} M397749490.com All Right Reserved.</p>
         <div className="flex flex-col md:flex-row items-center justify-center gap-4">
-            <a href="https://beian.miit.gov.cn/" target="_blank" className="flex items-center gap-1 hover:text-green-600">
-              <Image src="/miit.png" alt="MIIT" width={16} height={16} />
-              <span>津ICP备2025036652号-1</span>
-            </a>
+          <a href="https://beian.miit.gov.cn/" target="_blank" className="flex items-center gap-1 hover:text-green-600">
+            <Image src="/miit.png" alt="MIIT" width={16} height={16} />
+            <span>津ICP备2025036652号-1</span>
+          </a>
+          <a target="_blank" title="51la网站统计" href="https://v6.51.la/land/3OWuEgiTrFNp0oGj">
+            <img src="https://sdk.51.la/icon/1-3.png" />
+          </a>
         </div>
       </footer>
     </Pager>
