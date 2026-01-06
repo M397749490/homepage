@@ -1,6 +1,13 @@
 "use client";
 import React from "react";
 
+declare global {
+  interface Window {
+    LA?: any;
+    LingQue?: any;
+  }
+}
+
 export default function AnalyticsInit() {
   React.useEffect(() => {
     // LA统计脚本
