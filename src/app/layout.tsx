@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh_CN">
+    <html lang="zh-CN">
       <head>
         <Script
           id="LA_COLLECT"
