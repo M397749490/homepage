@@ -1,4 +1,6 @@
-export function RadioProfile() {
+import React from "react";
+
+const RadioProfile = React.memo(function RadioProfile() {
   return (
     <div className="border-2 border-green-700 p-4 bg-green-950/30 my-6 font-vt323 shadow-[0_0_10px_rgba(0,255,0,0.1)]">
       <h2 className="text-xl border-b-2 border-green-700 mb-2 pb-1 flex justify-between">
@@ -32,4 +34,6 @@ export function RadioProfile() {
       </div>
     </div>
   );
-}
+});
+
+export { RadioProfile };

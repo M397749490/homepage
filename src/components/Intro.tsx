@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const ROLES = [
@@ -12,7 +12,7 @@ const ROLES = [
   "🤗 苦力怕论坛超级版主"
 ];
 
-export function Intro() {
+const Intro = React.memo(function Intro() {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -41,4 +41,6 @@ export function Intro() {
       </div>
     </div>
   );
-}
+});
+
+export { Intro };

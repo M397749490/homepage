@@ -1,3 +1,4 @@
+import React from "react";
 const FRIENDS = [
   { name: "Snowball_233", url: "https://blog.qwq.my" },
   { name: "damesck", url: "https://damesck.net" },
@@ -5,7 +6,7 @@ const FRIENDS = [
   { name: "瀚海工艺", url: "https://github.com/TeamVastsea" },
 ];
 
-export function FriendsList() {
+const FriendsList = React.memo(function FriendsList() {
   return (
     <div className="border-2 border-green-800 p-4 bg-green-950/20 my-6 font-vt323 text-center">
       <h2 className="text-xl border-b border-green-800 mb-4 pb-1 flex justify-between">
@@ -22,4 +23,6 @@ export function FriendsList() {
       </div>
     </div>
   );
-}
+});
+
+export { FriendsList };
