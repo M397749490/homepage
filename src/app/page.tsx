@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AnalyticsInit from "@/components/AnalyticsInit";
 import { Pager } from "@/components/Pager";
 import { Intro } from "@/components/Intro";
 import { ContactInfo } from "@/components/ContactInfo";
@@ -8,6 +9,7 @@ import { FriendsList } from "@/components/FriendsList";
 export default function Home() {
   return (
     <Pager>
+      <AnalyticsInit />
       <header className="mb-8 border-b-2 border-green-800 pb-4 flex flex-col md:flex-row items-center gap-6">
         <div className="relative w-24 h-24 shrink-0 border-2 border-green-500 rounded-full overflow-hidden shadow-[0_0_15px_rgba(34,197,94,0.5)] md:self-start">
             <Image 

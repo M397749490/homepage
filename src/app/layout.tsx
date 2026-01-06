@@ -24,22 +24,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN">
+    <html lang="zh-CN" className={vt323.variable}>
       <head>
         <Script
           id="LA_COLLECT"
           src="https://sdk.51.la/js-sdk-pro.min.js"
           strategy="afterInteractive"
         />
-        <script dangerouslySetInnerHTML={{ __html: `LA.init({id:"3OWuEgiTrFNp0oGj",ck:"3OWuEgiTrFNp0oGj",autoTrack:true,hashMode:true})` }} />
         <Script
           src="https://sdk.51.la/perf/js-sdk-perf.min.js"
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
-        <script dangerouslySetInnerHTML={{ __html: `new LingQue.Monitor().init({id:"3ObUIOp5x9WjHh2a",sendSuspicious:true,sendSpaPv:true});` }} />
       </head>
-      <body className={`${vt323.variable} font-mono antialiased bg-zinc-950 text-green-500 selection:bg-green-900 selection:text-green-100`}>
+      <body className="font-mono antialiased bg-zinc-950 text-green-500 selection:bg-green-900 selection:text-green-100">
         {children}
       </body>
     </html>
