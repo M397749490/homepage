@@ -40,6 +40,10 @@ export default function Home() {
             <Image src="/miit.png" alt="MIIT" width={16} height={16} />
             <span>津ICP备2025036652号-1</span>
           </a>
+          <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12010302002754" target="_blank" className="flex items-center gap-1 hover:text-green-600">
+            <Image src="/mps.png" alt="MPS" width={16} height={16} />
+            <span>津公网安备12010302002754号</span>
+          </a>
           <a target="_blank" title="51la网站统计" href="https://v6.51.la/land/3OWuEgiTrFNp0oGj">
             <img src="https://sdk.51.la/icon/1-3.png" />
           </a>
